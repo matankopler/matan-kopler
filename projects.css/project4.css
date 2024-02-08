@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#back {
+    background-image: url(../picture/Path\ 15@2x.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 39vw;
+}
+
+#container {
+    width: 100vw;
+    height: 33vw;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#container>h1 {
+    text-align: center;
+    font: normal normal bold 5.3rem/7rem Assistant;
+    letter-spacing: 0px;
+    color: #D3E10E;
+    opacity: 1;
+}
+
+#container>p {
+    text-align: center;
+    font: normal normal normal 1.1rem/1.2rem Assistant;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+#form {
+    display: flex;
+    width: 50vw;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.form-control {
+    text-align: right;
+    font: normal normal bold 1rem/1.2rem Assistant;
+    letter-spacing: 0px;
+    color: #011560;
+    opacity: 1;
+}
+
+.form-control>input {
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-bottom: 4px solid #D3E10E;
+    width: 23vw;
+    height: 3vw;
+}
+
+.form-control>input[type=submit] {
+    text-align: center;
+    font: normal normal bold 1.3rem/1.4rem Assistant;
+    letter-spacing: 0.33px;
+    color: #011560;
+    opacity: 1;
+    background: #D3E10E 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 12vw;
+    height: 3vw;
+}
+
+@media screen and (max-width:905px) {
+    #back {
+        background-image: url(../picture/Path\ 15@2x.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 60vw;
+    }
+
+    #container {
+        width: 100vw;
+        height: 50vw;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #container>h1 {
+        text-align: center;
+        font: normal normal bold 1.7rem/2rem Assistant;
+        letter-spacing: 0px;
+        color: #D3E10E;
+        opacity: 1;
+    }
+
+    #container>p {
+        text-align: center;
+        font: normal normal normal 0.6rem/1.2rem Assistant;
+        letter-spacing: 0px;
+        color: #F9F9F9;
+        opacity: 1;
+    }
+
+    #form {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+
+    .form-control {
+        text-align: right;
+        font: normal normal bold 1.3rem/1.6rem Assistant;
+        letter-spacing: 0px;
+        color: #011560;
+        opacity: 1;
+    }
+
+    .form-control>input {
+        background: #F6F6F6 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-bottom: 4px solid #D3E10E;
+        width: 90vw;
+        height: 8vw;
+    }
+
+    .form-control>input[type=submit] {
+        text-align: center;
+        font: normal normal bold 1.3rem/1.4rem Assistant;
+        letter-spacing: 0.33px;
+        color: #011560;
+        opacity: 1;
+        background: #D3E10E 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 90vw;
+        height: 8vw;
+    }
+}
+
+@media screen and (min-width:751px) and (max-width:850px) {
+    #container>h1 {
+        text-align: center;
+        font: normal normal bold 3.6rem/2rem Assistant;
+        letter-spacing: 0px;
+        color: #D3E10E;
+        opacity: 1;
+    }
+
+    #container>p {
+        text-align: center;
+        font: normal normal normal 1.3rem/1.2rem Assistant;
+        letter-spacing: 0px;
+        color: #F9F9F9;
+        opacity: 1;
+        padding-top: 1.5rem;
+    }
+
+    #form {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+
+    .form-control {
+        text-align: right;
+        font: normal normal bold 1rem/1.2rem Assistant;
+        letter-spacing: 0px;
+        color: #011560;
+        opacity: 1;
+    }
+
+    .form-control>input {
+        background: #F6F6F6 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-bottom: 4px solid #D3E10E;
+        width: 90vw;
+        height: 8vw;
+        direction: rtl;
+    }
+
+    .form-control>input[type=submit] {
+        text-align: center;
+        font: normal normal bold 1.3rem/1.4rem Assistant;
+        letter-spacing: 0.33px;
+        color: #011560;
+        opacity: 1;
+        width: 90vw;
+        height: 8vw;
+    }
+}
+
+@media screen and (min-width:907px) and (max-width:920px) {
+    #back {
+        background-image: url(../picture/Path\ 15@2x.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 60vw;
+    }
+
+    #container {
+        width: 100vw;
+        height: 50vw;
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    #container>h1 {
+        text-align: center;
+        font: normal normal bold 3.7rem/2rem Assistant;
+        letter-spacing: 0px;
+        color: #D3E10E;
+        opacity: 1;
+    }
+
+    #container>p {
+        text-align: center;
+        font: normal normal normal 1.4rem/1.2rem Assistant;
+        letter-spacing: 0px;
+        color: #F9F9F9;
+        opacity: 1;
+        padding-top: 2rem;
+    }
+
+    #form {
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-right: 3rem;
+    }
+
+    .form-control {
+        text-align: right;
+        font: normal normal bold 2rem/2.2rem Assistant;
+        letter-spacing: 0px;
+        color: #011560;
+        opacity: 1;
+    }
+
+    .form-control>input {
+        background: #F6F6F6 0% 0% no-repeat padding-box;
+        opacity: 1;
+        border-bottom: 4px solid #D3E10E;
+        width: 90vw;
+        height: 8vw;
+        direction: rtl;
+    }
+
+    .form-control>input[type=submit] {
+        text-align: center;
+        font: normal normal bold 2.3rem/2.8rem Assistant;
+        letter-spacing: 0.33px;
+        color: #011560;
+        opacity: 1;
+        width: 90vw;
+        height: 8vw;
+    }
+}

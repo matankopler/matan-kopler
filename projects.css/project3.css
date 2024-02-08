@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+#container {
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#container>h2 {
+    font: normal normal normal 10rem/20rem Satisfy;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    opacity: 1;
+}
+
+#container>h3 {
+    font: normal normal normal 2rem/2.2rem Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    padding-bottom: 1.7rem;
+}
+
+#container>p {
+    text-align: center;
+    font: normal normal normal 1rem/1.2rem Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+    padding-bottom: 4rem;
+}
+
+#form {
+    display: flex;
+    width: 50vw;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+.form-control {
+    text-align: right;
+    padding-right: 1rem;
+    font: normal normal normal 1rem/1.2rem Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+
+}
+
+.form-control>input {
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    width: 20vw;
+    height: 3vw;
+    direction: rtl;
+}
+
+.form-control>input[type=submit] {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 10vw;
+    height: 3vw;
+}
+
+@media screen and (max-width:530px) {
+    body {
+        width: 100%;
+        height: 100%;
+        background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+        opacity: 1;
+    }
+
+    #container {
+        width: 100vw;
+        height: 100vw;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        padding-top: 4rem;
+
+    }
+
+    #container>h2 {
+        text-align: center;
+        font: normal normal normal 3.8rem/5.2rem Satisfy;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 36px #00000087;
+        opacity: 1;
+    }
+
+    #container>h3 {
+        text-align: center;
+        font: normal normal normal 1.3rem/1.3rem Varela Round;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+    }
+
+    #container>p {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        text-align: center;
+        font: normal normal normal 1rem/1.2rem Varela Round;
+        letter-spacing: 0px;
+        color: #F9F9F9;
+        opacity: 1;
+    }
+
+    #form {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .form-control {
+        text-align: right;
+        font: normal normal normal 1rem/1.2rem Varela Round;
+        letter-spacing: 0px;
+        color: #F9F9F9;
+        opacity: 1;
+        padding-right: 2rem;
+    }
+
+    .form-control>input {
+        background: #F6F6F624 0% 0% no-repeat padding-box;
+        border: 2px solid #FFFFFF;
+        opacity: 1;
+        width: 80vw;
+        height: 10vw;
+        margin-bottom: 1.2rem;
+        direction: rtl;
+    }
+
+    .form-control>input[type=submit] {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 80vw;
+        height: 10vw;
+        margin-bottom: 5em;
+
+    }
+
+}
+
+@media screen and (min-width:539px) and (max-width:920px) {
+    #container {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        padding-top: 4rem;
+    }
+
+    #container>h2 {
+        text-align: center;
+        font: normal normal normal 5rem/5.2rem Satisfy;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        text-shadow: 0px 0px 36px #00000087;
+        opacity: 1;
+        padding-bottom: 3rem;
+    }
+
+    #container>h3 {
+        text-align: center;
+        font: normal normal normal 2.4rem/1.7rem Varela Round;
+        letter-spacing: 0px;
+        color: #FFFFFF;
+        opacity: 1;
+        padding-bottom: 3rem;
+    }
+
+    #container>p {
+        margin-right: 2rem;
+        margin-left: 2rem;
+        text-align: center;
+        font: normal normal normal 1.6rem/1.4rem Varela Round;
+        letter-spacing: 0px;
+        color: #F9F9F9;
+        opacity: 1;
+    }
+
+    #form {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .form-control>input {
+        background: #F6F6F624 0% 0% no-repeat padding-box;
+        border: 2px solid #FFFFFF;
+        opacity: 1;
+        width: 80vw;
+        height: 7vw;
+        margin-bottom: 3rem;
+    }
+
+    .form-control>input[type=submit] {
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 80vw;
+        height: 7vw;
+        font: normal normal normal 1.4rem/2rem Varela Round;
+        letter-spacing: 0px;
+        color: #2823FD;
+        opacity: 1;
+    }
+}

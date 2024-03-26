@@ -24,7 +24,7 @@ function dropPiece(col) {
         if (board[row][col] === 0) {
             board[row][col] = currentPlayer;
             const cell = document.querySelector(`[data-row="${row}"][data-col="${col}"]`);
-            cell.textContent = currentPlayer === 1 ? 'X' : 'O'; // Display 'X' or 'O' in the cell
+            cell.textContent = currentPlayer === 1 ? 'X' : 'O'; 
             cell.classList.add(`player-${currentPlayer}`);
             if (checkWin(row, col)) {
                 setTimeout(() => {
@@ -41,10 +41,10 @@ function dropPiece(col) {
 
 function checkWin(row, col) {
     const directions = [
-        [0, 1], // horizontal
-        [1, 0], // vertical
-        [1, 1], // diagonal \
-        [-1, 1] // diagonal /
+        [0, 1], 
+        [1, 0], 
+        [1, 1], 
+        [-1, 1] 
     ];
 
     for (const [dx, dy] of directions) {
@@ -69,7 +69,7 @@ function resetGame() {
     const cells = document.querySelectorAll('.cell');
     cells.forEach(cell => {
         cell.classList.remove('player-one', 'player-two');
-        cell.textContent = ''; // Reset cell content
+        cell.textContent = ''; 
         cell.parentNode.removeChild(cell);
     });
     createBoard();

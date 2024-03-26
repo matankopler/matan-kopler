@@ -9,13 +9,13 @@ function flipCard() {
     if (lockBoard) return;
     if (this === firstCard) return;
     this.classList.add("flip");
-    //first click
+    
     if (!hasFlipped) {
         hasFlipped = true;
         firstCard = this;
         return;
     }
-    // second click
+    
     secondCard = this;
     checkForMatch();
 
@@ -58,5 +58,5 @@ function resetBoard() {
         card.style.order = randomPos;
 
     });
-})();//this is an expression for IIFE(Immediate Invoked Function Expression)
+})();
 cards.forEach(card => card.addEventListener("click", flipCard));

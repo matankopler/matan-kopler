@@ -48,6 +48,12 @@
     border-bottom: 3px solid gray;
 }
 
+#js{
+    width: 3vw;
+    height: 3vw;
+    margin-left: 1rem;
+}
+
 #img {
     background: rgb(147, 255, 231);
     background: linear-gradient(320deg, rgba(147, 255, 231, 1) 29%, rgba(212, 252, 254, 1) 71%);

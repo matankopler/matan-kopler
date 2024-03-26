@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.calendar {
+    width: 60vw;
+    height: 60vw;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#monthYear {
+    text-align: center;
+    margin: 3rem;
+}
+
+table {
+    width: 100%;
+    height: 50%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}

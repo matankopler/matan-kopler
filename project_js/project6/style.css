@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to top, #434343, #000000);
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.memory-game {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.33% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+
+}
+
+#first {
+    color: #fcb045;
+    font-size: 6rem;
+    border: none;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#second {
+    display: none;
+    margin-left: -25px;
+}
+
+.memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+}
+
+.memory-card.flip {
+    transform: rotateY(180deg);
+}
+
+img {
+    width: 100px;
+}
+
+.front-face,
+.back-face {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.back-face {
+    background: linear-gradient(to top, #33001b, #ff0084);
+}
+
+.fa-brain {
+    color: white;
+    padding-left: 50px;
+    color: #fcb045;
+}
+
+.front-face {
+    transform: rotateY(180deg);
+    background: linear-gradient(to right, #24FE41, #FDFC47);
+}
